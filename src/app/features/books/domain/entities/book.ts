@@ -5,7 +5,7 @@ import { Copy } from "../../../copies/domain/entities/copy";
 
 export class Book {
   constructor(
-    public id: number,
+    public id: number, 
     public title: string,
     public isbn: string,
     public publicationYear: number,
